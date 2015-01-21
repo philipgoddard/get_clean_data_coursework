@@ -3,16 +3,24 @@
 
 subject
 	units: unique identifier number in range [1:30]
+	
 	subject identifier id number
 
 activity
 	units: character string describing 6 possible activities
+	
 	activities are:
+	
 		walking
+		
 		walkingdownstairs
+		
 		walkingupstairs
+		
 		sitting
+		
 		standing
+		
 		laying
 
 avg.tbodyacc.mean.x
