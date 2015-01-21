@@ -87,6 +87,8 @@ my_data <- mutate(my_data,activity=tolower(as.character(activity)))
 names(my_data) <- gsub("\\-","\\.",names(my_data))
 # remove parenthesis
 names(my_data) <- gsub("\\(\\)","",names(my_data))
+# get rid of repeat 'bodybody' in some column names
+names(my_data) <- gsub("fbodybody","fbody",names(my_data))
 # cast as lower case
 names(my_data) <- tolower(names(my_data))
 
