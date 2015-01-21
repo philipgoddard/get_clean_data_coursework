@@ -2,11 +2,13 @@
 #THIS APPLIES TO DATA SET CONTAINED IN tidy_avg.txt 
 
 subject
+
 	units: unique identifier number in range [1:30]
 	
 	subject identifier id number
 
 activity
+
 	units: character string describing 6 possible activities
 	
 	activities are:
