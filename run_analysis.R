@@ -87,28 +87,25 @@ my_data <- mutate(my_data,activity=tolower(as.character(activity)))
 names(my_data) <- gsub("\\-","\\.",names(my_data))
 # remove parenthesis
 names(my_data) <- gsub("\\(\\)","",names(my_data))
-#remove duplicate "bodybody" in some column names
-names(my_data) <- gsub("bodybody","body",names(my_data))
 # cast as lower case
 names(my_data) <- tolower(names(my_data))
 
 # the above is steps 1:4. Step 5 can be done with a dplyr one-liner
 # to make averaged for each subject and each activity:
-tidy_averaged <- my_data %>% 
+tidy_avg <- my_data %>% 
     group_by(subject,activity)%>% 
     summarise_each(funs(mean))
 
 #rename relevant columns
-names(tidy_averaged) <- gsub("fbody","avg\\.fbody",names(tidy_averaged))
-names(tidy_averaged) <- gsub("tbody","avg\\.tbody",names(tidy_averaged))
+names(tidy_avg) <- gsub("fbody","avg\\.fbody",names(tidy_avg))
+names(tidy_avg) <- gsub("tbody","avg\\.tbody",names(tidy_avg))
+names(tidy_avg) <- gsub("tgravity","avg\\.tgravity",names(tidy_avg))
 
 #write to tidy_avg.txt in current directory
-write.table(tidy_averaged, "tidy_avg.txt",row.name=FALSE)
+write.table(tidy_avg, "tidy_avg.txt",row.name=FALSE)
 
-# contains 180 rows (180 subjects),
+#tidy avg contains 180 rows (180 subjects),
 #68 columns (66 readings + activity label + subject label)
-
-rm(tidy_averaged)
 
 # to read back in, use the commands
 # test_read <- read.table(file="tidy_avg.txt",header=TRUE)
