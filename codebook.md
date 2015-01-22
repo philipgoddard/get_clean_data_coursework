@@ -1,10 +1,10 @@
 #DATA DICTIONARY - SAMSUNG GALAXY S SMARTPHONE DATA
-#THIS APPLIES TO DATA SET CONTAINED IN tidy_avg.txt 
+#THIS APPLIES TO DATA SET CONTAINED IN tidy_avg.txt
 
 ###subject
 
 integer data type
-units: unique identifier number in range [1:30]	
+units: unique identifier number in range [1:30]
 subject identifier id number
 
 ###activity
@@ -12,15 +12,15 @@ subject identifier id number
 character data type
 
 units: character string describing 6 possible activities
-	
+
 activities are:
-	
-*walking
-*walkingdownstairs
-*walkingupstairs
-*sitting
-*standing
-*laying
+
+* walking
+* walkingdownstairs
+* walkingupstairs
+* sitting
+* standing
+* laying
 
 ###avg.tbodyacc.mean.x
 
@@ -29,318 +29,369 @@ numeric data type
 units: normalised and bounded within [-1:1]
 mean of the measurements of the mean x component of the time signal body acceleration
 
-avg.tbodyacc.mean.y
-	units: normalised and bounded within [-1:1]
-    mean of the measurements of the mean y component of the time signal body acceleration
+###avg.tbodyacc.mean.y
 
-avg.tbodyacc.mean.z
-	units: normalised and bounded within [-1:1]
-    mean of the measurements of the mean z component of the time signal body acceleration
+numeric data type
 
-avg.tbodyacc.std.x
-	units: normalised and bounded within [-1:1]
-    mean of the measurements of the standard deviation of the x component of the time signal body acceleration
+units: normalised and bounded within [-1:1]
 
-avg.tbodyacc.std.y
-	units: normalised and bounded within [-1:1]
-    mean of the measurements of the standard deviation of the y component of the time signal body acceleration
+mean of the measurements of the mean y component of the time signal body acceleration
 
-avg.tbodyacc.std.z
-	units: normalised and bounded within [-1:1]
-    mean of the measurements of the standard deviation of the z component of the time signal body acceleration
+###avg.tbodyacc.mean.z
 
-avg.tgravityacc.mean.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean x component of the time signal gravity acceleration
+numeric data type
 
-avg.tgravityacc.mean.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean y component of the time signal gravity acceleration
+units: normalised and bounded within [-1:1]
 
-avg.tgravityacc.mean.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean z component of the time signal gravity acceleration
+mean of the measurements of the mean z component of the time signal body acceleration
 
-avg.tgravityacc.std.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the x component of the time signal gravity acceleration
+###avg.tbodyacc.std.x
 
-avg.tgravityacc.std.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the y component of the time signal gravity acceleration
+numeric data type
 
-avg.tgravityacc.std.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the z component of the time signal gravity acceleration
+units: normalised and bounded within [-1:1]
 
-avg.tbodyaccjerk.mean.x
-	units: normalised and bounded within [-1:1] mean of the
-	measurements of the mean of the x component of the time signal body jerk
+mean of the measurements of the standard deviation of the x component of the time signal body acceleration
 
-avg.tbodyaccjerk.mean.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the y component of the time signal body jerk
-	
+###avg.tbodyacc.std.y
+
+numeric data type
+
+units: normalised and bounded within [-1:1]
+
+mean of the measurements of the standard deviation of the y component of the time signal body acceleration
+
+###avg.tbodyacc.std.z
+
+numeric data type
+
+units: normalised and bounded within [-1:1]
+
+mean of the measurements of the standard deviation of the z component of the time signal body acceleration
+
+###avg.tgravityacc.mean.x
+
+numeric data type
+
+units: normalised and bounded within [-1:1]
+
+mean of the measurements of the mean x component of the time signal gravity acceleration
+
+###avg.tgravityacc.mean.y
+
+numeric data type
+
+units: normalised and bounded within [-1:1]
+
+mean of the measurements of the mean y component of the time signal gravity acceleration
+
+###avg.tgravityacc.mean.z
+
+numeric data type
+
+units: normalised and bounded within [-1:1]
+
+mean of the measurements of the mean z component of the time signal gravity acceleration
+
+###avg.tgravityacc.std.x
+
+numeric data type
+
+units: normalised and bounded within [-1:1]
+
+mean of the measurements of the standard deviation of the x component of the time signal gravity acceleration
+
+###avg.tgravityacc.std.y
+
+numeric data type
+
+units: normalised and bounded within [-1:1]
+
+mean of the measurements of the standard deviation of the y component of the time signal gravity acceleration
+
+###avg.tgravityacc.std.z
+
+numeric data type
+
+units: normalised and bounded within [-1:1]
+
+mean of the measurements of the standard deviation of the z component of the time signal gravity acceleration
+
+###avg.tbodyaccjerk.mean.x
+
+numeric data type
+
+units: normalised and bounded within [-1:1] mean of the
+  measurements of the mean of the x component of the time signal body jerk
+
+###avg.tbodyaccjerk.mean.y
+
+numeric data type
+
+units: normalised and bounded within [-1:1]
+
+mean of the measurements of the mean of the y component of the time signal body jerk
+
 avg.tbodyaccjerk.mean.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the z component of the time signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the z component of the time signal body jerk
 
 avg.tbodyaccjerk.std.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the x component of the time signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the x component of the time signal body jerk
 
 avg.tbodyaccjerk.std.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the y component of the time signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the y component of the time signal body jerk
 
 avg.tbodyaccjerk.std.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the z component of the time signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the z component of the time signal body jerk
 
 avg.tbodygyro.mean.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the x component of the time signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the x component of the time signal body gyro
 
 avg.tbodygyro.mean.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the y component of the time signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the y component of the time signal body gyro
 
 avg.tbodygyro.mean.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the z component of the time signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the z component of the time signal body gyro
 
 avg.tbodygyro.std.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the x component of the time signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the x component of the time signal body gyro
 
 avg.tbodygyro.std.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the y component of the time signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the y component of the time signal body gyro
 
 avg.tbodygyro.std.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the z component of the time signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the z component of the time signal body gyro
 
 avg.tbodygyrojerk.mean.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the x component of the time signal body gyro jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the x component of the time signal body gyro jerk
 
 avg.tbodygyrojerk.mean.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the y component of the time signal body gyro jerk
-	
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the y component of the time signal body gyro jerk
+
 avg.tbodygyrojerk.mean.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the z component of the time signal body gyro jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the z component of the time signal body gyro jerk
 
 avg.tbodygyrojerk.std.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the x component of the time signal body gyro jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the x component of the time signal body gyro jerk
 
 avg.tbodygyrojerk.std.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the y component of the time signal body gyro jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the y component of the time signal body gyro jerk
 
 avg.tbodygyrojerk.std.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the z component of the time signal body gyro jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the z component of the time signal body gyro jerk
 
 avg.tbodyaccmag.mean
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the magnitude of the time signal body acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the magnitude of the time signal body acceleration
 
 avg.tbodyaccmag.std
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the magnitude of the time signal body acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the magnitude of the time signal body acceleration
 
 avg.tgravityaccmag.mean
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the magnitude of the time signal gravity acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the magnitude of the time signal gravity acceleration
 
 avg.tgravityaccmag.std
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the magnitude of the time signal gravity acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the magnitude of the time signal gravity acceleration
 
 avg.tbodyaccjerkmag.mean
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the magnitude of the time signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the magnitude of the time signal body jerk
 
 avg.tbodyaccjerkmag.std
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the magnitude of the time signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the magnitude of the time signal body jerk
 
 avg.tbodygyromag.mean
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the magnitude of the time signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the magnitude of the time signal body gyro
 
 avg.tbodygyromag.std
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the magnitude of the time signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the magnitude of the time signal body gyro
 
 avg.tbodygyrojerkmag.mean
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the magnitude of the time signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the magnitude of the time signal body jerk
 
 avg.tbodygyrojerkmag.std
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the magnitude of the time signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the magnitude of the time signal body jerk
 
 avg.fbodyacc.mean.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean x component of the frequency signal body acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean x component of the frequency signal body acceleration
 
 avg.fbodyacc.mean.y
-	units: normalised and bounded within [-1:1]
+  units: normalised and bounded within [-1:1]
     mean of the measurements of the mean y component of the frequency signal body acceleration
 
 avg.fbodyacc.mean.z
-	units: normalised and bounded within [-1:1]
+  units: normalised and bounded within [-1:1]
     mean of the measurements of the mean z component of the frequency signal body acceleration
 
 avg.fbodyacc.std.x
-	units: normalised and bounded within [-1:1]
+  units: normalised and bounded within [-1:1]
     mean of the measurements of the standard deviation of the x component of the frequency signal body acceleration
 
 avg.fbodyacc.std.y
-	units: normalised and bounded within [-1:1]
+  units: normalised and bounded within [-1:1]
     mean of the measurements of the standard deviation of the y component of the frequency signal body acceleration
 
 avg.fbodyacc.std.z
-	units: normalised and bounded within [-1:1]
+  units: normalised and bounded within [-1:1]
     mean of the measurements of the standard deviation of the z component of the frequency signal body acceleration
 
 avg.fgravityacc.mean.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean x component of the frequency signal gravity acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean x component of the frequency signal gravity acceleration
 
 avg.fgravityacc.mean.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean y component of the frequency signal gravity acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean y component of the frequency signal gravity acceleration
 
 avg.fgravityacc.mean.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean z component of the frequency signal gravity acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean z component of the frequency signal gravity acceleration
 
 avg.fgravityacc.std.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the x component of the frequency signal gravity acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the x component of the frequency signal gravity acceleration
 
 avg.fgravityacc.std.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the y component of the frequency signal gravity acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the y component of the frequency signal gravity acceleration
 
 avg.fgravityacc.std.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the z component of the frequency signal gravity acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the z component of the frequency signal gravity acceleration
 
 avg.fbodyaccjerk.mean.x
-	units: normalised and bounded within [-1:1] mean of the
-	measurements of the mean of the x component of the frequency signal body jerk
+  units: normalised and bounded within [-1:1] mean of the
+  measurements of the mean of the x component of the frequency signal body jerk
 
 avg.fbodyaccjerk.mean.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the y component of the frequency signal body jerk
-	
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the y component of the frequency signal body jerk
+
 avg.fbodyaccjerk.mean.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the z component of the frequency signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the z component of the frequency signal body jerk
 
 avg.fbodyaccjerk.std.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the x component of the frequency signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the x component of the frequency signal body jerk
 
 avg.fbodyaccjerk.std.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the y component of the frequency signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the y component of the frequency signal body jerk
 
 avg.fbodyaccjerk.std.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the z component of the frequency signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the z component of the frequency signal body jerk
 
 avg.fbodygyro.mean.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the x component of the frequency signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the x component of the frequency signal body gyro
 
 avg.fbodygyro.mean.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the y component of the frequency signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the y component of the frequency signal body gyro
 
 avg.fbodygyro.mean.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the z component of the frequency signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the z component of the frequency signal body gyro
 
 avg.fbodygyro.std.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the x component of the frequency signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the x component of the frequency signal body gyro
 
 avg.fbodygyro.std.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the y component of the frequency signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the y component of the frequency signal body gyro
 
 avg.fbodygyro.std.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the z component of the frequency signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the z component of the frequency signal body gyro
 
 avg.fbodygyrojerk.mean.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the x component of the frequency signal body gyro jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the x component of the frequency signal body gyro jerk
 
 avg.fbodygyrojerk.mean.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the y component of the frequency signal body gyro jerk
-	
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the y component of the frequency signal body gyro jerk
+
 avg.fbodygyrojerk.mean.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the z component of the frequency signal body gyro jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the z component of the frequency signal body gyro jerk
 
 avg.fbodygyrojerk.std.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the x component of the frequency signal body gyro jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the x component of the frequency signal body gyro jerk
 
 avg.fbodygyrojerk.std.y
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the y component of the frequency signal body gyro jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the y component of the frequency signal body gyro jerk
 
 avg.fbodygyrojerk.std.z
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the z component of the frequency signal body gyro jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the z component of the frequency signal body gyro jerk
 
 avg.fbodyaccmag.mean
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the magnitude of the frequency signal body acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the magnitude of the frequency signal body acceleration
 
 avg.fbodyaccmag.std
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the magnitude of the frequency signal body acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the magnitude of the frequency signal body acceleration
 
 avg.fgravityaccmag.mean
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the magnitude of the frequency signal gravity acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the magnitude of the frequency signal gravity acceleration
 
 avg.fgravityaccmag.std
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the magnitude of the frequency signal gravity acceleration
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the magnitude of the frequency signal gravity acceleration
 
 avg.fbodyaccjerkmag.mean
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the magnitude of the frequency signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the magnitude of the frequency signal body jerk
 
 avg.fbodyaccjerkmag.std
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the magnitude of the frequency signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the magnitude of the frequency signal body jerk
 
 avg.fbodygyromag.mean
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the magnitude of the frequency signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the magnitude of the frequency signal body gyro
 
 avg.fbodygyromag.std
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the magnitude of the frequency signal body gyro
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the magnitude of the frequency signal body gyro
 
 avg.fbodygyrojerkmag.mean
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean of the magnitude of the frequency signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the mean of the magnitude of the frequency signal body jerk
 
 avg.fbodygyrojerkmag.std
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the standard deviation of the magnitude of the frequency signal body jerk
+  units: normalised and bounded within [-1:1]
+  mean of the measurements of the standard deviation of the magnitude of the frequency signal body jerk
