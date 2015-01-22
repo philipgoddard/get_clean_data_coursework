@@ -1,7 +1,7 @@
 # getting and cleaning data coursework
 ## coursework for coursera getting and cleaning data
 ## note: package dplyr MUST be installed to run script
-## refer to the codebook for description of data and analysis performed
+## refer to the codebook for description of data 
 
 The script run_analysis.R should be run after setting the working
 directory to the directory that contains the (unzipped) UCI
@@ -30,3 +30,5 @@ The code works by:
 - to do step 5, set up a dplyr chain
 - this chain uses group_by to group by subject and activity, then uses summarise_each to find the mean of the columns for the group. assigns to data frame tidy_avg
 - rename the columns to reflect they are now an average, then write to file tidy_avg.txt
+
+Please refer to the comments in run_analysis.R to accompany this explanation
