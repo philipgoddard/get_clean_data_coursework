@@ -1,33 +1,33 @@
 #DATA DICTIONARY - SAMSUNG GALAXY S SMARTPHONE DATA
 #THIS APPLIES TO DATA SET CONTAINED IN tidy_avg.txt 
 
-subject
+###subject
 
-	units: unique identifier number in range [1:30]
+integer data type
+units: unique identifier number in range [1:30]	
+subject identifier id number
+
+###activity
+
+character data type
+
+units: character string describing 6 possible activities
 	
-	subject identifier id number
-
-activity
-
-	units: character string describing 6 possible activities
+activities are:
 	
-	activities are:
-	
-		walking
-		
-		walkingdownstairs
-		
-		walkingupstairs
-		
-		sitting
-		
-		standing
-		
-		laying
+*walking
+*walkingdownstairs
+*walkingupstairs
+*sitting
+*standing
+*laying
 
-avg.tbodyacc.mean.x
-	units: normalised and bounded within [-1:1]
-	mean of the measurements of the mean x component of the time signal body acceleration
+###avg.tbodyacc.mean.x
+
+numeric data type
+
+units: normalised and bounded within [-1:1]
+mean of the measurements of the mean x component of the time signal body acceleration
 
 avg.tbodyacc.mean.y
 	units: normalised and bounded within [-1:1]
